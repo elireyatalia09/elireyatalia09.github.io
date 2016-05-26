@@ -35,6 +35,9 @@ background-repeat: no-repeat;
 	margin-left: 60%;
 	word-spacing: 100px;
 }
+#nav-bar a {
+	padding-left: 40%;
+}
 #name{
 	display: block;
 	position: absolute;
@@ -58,20 +61,12 @@ background-repeat: no-repeat;
 	color: #3399ff;
 }
 #contact{
-	display: block;
-	position: absolute;
-	height: 40px;
-	margin-top: 7px;
-	margin-left: 72%;
-	color: white;
-	font-size: 37px;
+	
+
 }
 #about{
-	display: block;
 	position: absolute;
 	height: 40px;
-	margin-top: 7px;
-	margin-left: 60%;
 	color: white;
 	font-size: 35px;
 }
@@ -106,7 +101,24 @@ font-size: 20px;
 color: white;
 padding-left: 33%;	
 }
+.icon{
+	position: absolute;
+	height: 40px;
+	color: white;
+	font-size: 37px;
+	margin-right: 100px;
+}
 
 
+
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+
+}
 
 
